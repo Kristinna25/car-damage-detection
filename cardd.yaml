@@ -1,0 +1,34 @@
+# Car Damage Detection Dataset
+# CarDD dataset -  https://cardd-ustc.github.io/
+# Paper -  CarDD: A New Dataset for Vision-based Car Damage Detection
+
+# ├── car_damage
+# └── CarDD_release
+#     └── CarDD_COCO
+#         ├── images
+#         │   ├── train2017  (2816 images)
+#         │   ├── val2017    (810 images)
+#         │   └── test2017   (374 images)
+#         └── labels
+#             ├── train2017  (converted from COCO annotations)
+#             ├── val2017
+#             └── test2017
+
+
+# Train/val/test sets
+path: /home/ubuntu/CarDD_release/CarDD_COCO
+train: images/train2017  # 2816 images
+val: images/val2017      # 810 images
+test: images/test2017    # 374 images
+
+# 클래스 개수
+nc: 6
+
+# 클래스 목록
+names:
+  0: dent
+  1: scratch
+  2: crack
+  3: glass shatter
+  4: lamp broken
+  5: tire flat
