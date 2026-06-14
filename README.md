@@ -67,3 +67,21 @@ car_damage/
 ├── result_1~6.jpg   # 탐지 결과 이미지
 └── runs/detect/     # 학습 로그 및 결과
 
+---
+
+## 실행 방법
+
+```bash
+python3 preprocess.py   # 데이터 전처리
+python3 train.py        # 4가지 모델 학습
+python3 val.py           # 모델 검증
+python3 test.py          # 탐지 테스트
+```
+
+---
+
+## 사용 환경
+
+- AWS EC2 (g4dn.xlarge, Tesla T4 GPU)
+- Python 3.13, PyTorch, Ultralytics YOLOv8
+
