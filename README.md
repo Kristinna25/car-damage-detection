@@ -72,10 +72,10 @@ car_damage/
 ## 실행 방법
 
 ```bash
-python3 preprocess.py   # 데이터 전처리
-python3 train.py        # 4가지 모델 학습
-python3 val.py           # 모델 검증
-python3 test.py          # 탐지 테스트
+python preprocess.py   # 데이터 전처리
+python train.py        # 4가지 모델 학습
+python val.py           # 모델 검증
+python test.py          # 탐지 테스트
 ```
 
 ---
